@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background: url('assets/hunflag.jpg');
+	background-position: center;
+	width: 600px;
+  max-width: calc(100vw - 10px);
+	height: 400px;
+	max-height: calc(100vw - 40px);
+	box-shadow: 15px 10px 20px rgba(255, 240, 105, 0.74);
+}
+
+/* Flexbox-xal közpére helyezés */
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*A Flexbox miatt a Bodynak muszáj magasságot adni */
+
+  body {
+    height: 100vh;
+  }
+  
+  .elso-sor {
+	  height: 47%;
+	  width: 100%;
+	  margin-top: 2%;
+  }
+  
+  .foto {
+	  width: 35%;
+	  height: 100%;
+	  text-align: center;
+	  float: left;
+	
+  }
+  
+  #picture{
+	  max-height: 100%;
+	  max-width: 100%;
+	  border-radius: 15%;
+    border: 1px solid #000000;
+  }
+  
+  .adat {
+	  width:65%;
+	  height: 81%;
+	  float: left;
+	  padding-top: 6%;
+  }
+  
+  li{
+    display: inline;
+  }
+  
+  .flags {
+    list-style-type: none;
+	  letter-spacing: .4rem;
+	
+  }
+  
+  .flags img{
+    width: 30px; 
+  }
+  
+  h1{
+	  font-size: 35px;
+    font-weight: bold; 
+  }
+  
+  .languages {
+	  font-size: 21px;
+	  float: left;
+  }
+  
+  hr {
+    border: 1px;
+    border-top: 3px black;
+    color: gray;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+}
+  
+  .masodik-sor{
+	  height: 53%;
+	  width: 100%;
+  }
+  
+  .about{
+      font-family: 'Dancing Script', cursive;
+	  font-size: 22px;
+	  text-align: center; 
+	  line-height: 1.6;
+  }
+ 
+ .vege {
+	  width: 50%;
+	  height: 30%;
+	  margin-top: 80px;
+	  float: right;
+	  text-align: right;
+ }
+ 
+ a{
+	  color: black;
+ }
+ 
+ a:hover {
+	  color: white;
+	 
+ }
+  
+  
+ .social{
+	  list-style-type: none;
+	  letter-spacing: .4rem;
+ }
+  
+ .links h3{
+	  padding-bottom: 4px;
+	  text-decoration: underline;
+	 
+ } 
+
+.links{
+	  margin-right: 15px;
+	  margin-top: -15px;
+}
+
+#picture:hover {
+    transform: scale(1.5);
+    transition: .5s ease ;
+    border-radius: 50%;
+}
+
+.angol:hover{
+    transform: scale(4);
+    transition: .3s ease ;
+    border-radius: 50%;
+}
+
+.nemet:hover{
+  transform: scale(4);
+  transition: .3s ease ;
+  border-radius: 50%;
+}
+
+.horvat:hover{
+  transform: scale(4);
+  transition: .3s ease ;
+  border-radius: 50%;
+}
+
+body {
+  background: url('assets/europe.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
